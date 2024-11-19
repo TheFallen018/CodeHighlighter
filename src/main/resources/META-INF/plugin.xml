@@ -1,0 +1,12 @@
+<idea-plugin>
+    <id>org.TheFallen018.CodeHighlighter</id>
+    <name>CodeHighlighter</name>
+    <vendor email="jeremy.parkinson@powersystemservices.com.au" url="http://jeremy.parkinson@powersystemservices.com.au">PowerSystemServices</vendor>
+    <description>This plugin highlights code in the editor.</description>
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <annotator language="" implementationClass="org.thefallen018.codehighlighter.CodeHighlighterAnnotator"/>
+        <applicationConfigurable instance="org.thefallen018.codehighlighter.CodeHighlighterConfigurable" displayName="Code Highlighter"/>
+
+    </extensions>
+</idea-plugin>
